@@ -41,10 +41,25 @@
     align-items: flex-start;
     gap: var(--unit);
 
+    .tagline{
+      color: var(--accent2);
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px ;
+      span{
+        width: 50px;
+        height: 2px;
+        background-color: var(--accent);
+      }
+    }
+
     h2{
         // width: 30ch;
         font-size:calc( var(--unit)*4);
         text-transform: capitalize;
+        line-height: 100%;
 
         span{
             color: var(--accent);
