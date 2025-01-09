@@ -32,6 +32,13 @@ const Home = () => {
         <div class="path">
           <div class="overlay bg-img-cover"></div>
         </div>
+
+        <div class="leaf_image bg-img-contain">
+         
+        </div>
+        <div class="leaf_image2 bg-img-contain">
+         
+        </div>
       </div>
     </>
   );

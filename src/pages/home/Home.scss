@@ -4,6 +4,7 @@
   margin-top: 80px;
   background-color: var(--white);
   position: relative;
+  overflow: hidden;
 
   .path {
     position: absolute;
@@ -21,6 +22,28 @@
         background-image: url("../../assets/bg_bg_white.webp");
         opacity: 0.1;
     }
+  }
+
+  .leaf_image{
+    position: absolute;
+    bottom: -10%;
+    left: -10%;
+    width: 800px;
+    height: 400px;
+    background-image: url("../../assets/leaf.png");
+    opacity: 0.3;
+    
+  }
+
+  .leaf_image2{
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    width: 800px;
+    height: 400px;
+    background-image: url("../../assets/leaf.png");
+    opacity: 0.3;
+    transform: rotateZ(140deg);
   }
 
   .home_cont {
