@@ -1,0 +1,132 @@
+.blog-parent {
+    height: 100svh;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.134);
+
+    .blog-cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+
+        .blog-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: var(--unit);
+
+            .tagline {
+                color: var(--accent2);
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+
+                span {
+                    width: 50px;
+                    height: 2px;
+                    background-color: var(--accent);
+                }
+            }
+
+            p {
+                text-align: center;
+                max-width: 85ch;
+            }
+        }
+
+        .blog-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: calc(var(--unit));
+            width: 100%;
+
+
+            .blog-box {
+                width: 33.33%;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+
+                .full-img {
+                    background: url("../../assets/blog_img.jpg");
+                    aspect-ratio: 1;
+                    width: 100%;
+                    border-radius: calc(var(--unit));
+                    display: flex;
+                }
+
+                .date {
+                    position: absolute;
+                    top: 5%;
+                    left: 3%;
+                    padding: 10px;
+                    border-radius: calc(var(--unit)/2);
+                    background: var(--blue);
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: calc(var(--unit));
+
+                    span {
+                        font-size: 18px;
+                        font-weight: 300;
+                    }
+                }
+
+                .text {
+                    padding: 20px 10px;
+                    border-radius: calc(var(--unit)/2);
+                    background: var(--white);
+                    color: var(--blue);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: calc(var(--unit));
+                    border: 1px solid var(--lightgrey);
+                    position: absolute;
+                    bottom: 10%;
+                    width: 80%;
+
+                    h4 {
+                        font-size: 28px;
+                        font-weight: 400;
+                        letter-spacing: 0.7px;
+                        word-spacing: 1px;
+                        text-transform: capitalize;
+                        text-align: center;
+                        max-width: 20ch;
+                    }
+
+                    p {
+                        text-align: center;
+                    }
+                }
+
+              &:hover {
+                    content: '';
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                    z-index: 1;
+                    opacity: 0;
+                    background: white;
+                    top: 0;
+                    left: 0;
+                }
+
+            }
+        }
+
+
+    }
+}

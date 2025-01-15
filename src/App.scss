@@ -67,8 +67,21 @@ html {
   scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Gilroy';
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+  word-spacing: 1px;
+  font-weight: 700;
 }
 
 p {
@@ -80,7 +93,7 @@ p {
   font-weight: 500;
   color: var(--text);
   font-family: "Josefin Sans", serif;
- 
+
 
 }
 
@@ -119,7 +132,7 @@ a {
 
 
 
-.btn{
+.btn {
   width: auto;
   padding: calc(var(--unit)/2) var(--unit);
   background-color: var(--accent);
@@ -132,7 +145,7 @@ a {
   gap: var(--unit);
   overflow: hidden;
 
-  .text{
+  .text {
     width: 100%;
     color: var(--white);
     // padding-right: 20px;
@@ -140,7 +153,7 @@ a {
     z-index: 2;
   }
 
-  .icon{
+  .icon {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -148,12 +161,12 @@ a {
     position: relative;
     z-index: 2;
 
-    svg{
+    svg {
       color: var(--white);
     }
   }
 
-  &::after{
+  &::after {
     width: 25px;
     aspect-ratio: 1;
     background-color: var(--accent2);
@@ -166,9 +179,9 @@ a {
     transition: var(--trans);
   }
 
-  &:hover{
+  &:hover {
 
-    &::after{
+    &::after {
       width: 100%;
       height: 100%;
       top: 0;
@@ -177,5 +190,5 @@ a {
       transform: translate(0) !important;
     }
   }
-  
+
 }

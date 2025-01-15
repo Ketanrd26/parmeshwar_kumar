@@ -1,0 +1,51 @@
+.about-parent {
+    width: 100%;
+    height: 100svh;
+
+    .about-cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .left {
+            padding: 50px 150px 50px 50px;
+            background: var(--lightgrey);
+            height: auto;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: var(--unit);
+            justify-content: center;
+            align-items: flex-start;
+
+            .tagline {
+                color: var(--accent2);
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+
+                span {
+                    width: 50px;
+                    height: 2px;
+                    background-color: var(--accent);
+                }
+            }
+        }
+
+        .right {
+            position: absolute;
+            right: -5%;
+            width: 30%;
+
+            img {
+                width: 100%;
+                aspect-ratio: 2/2.4;
+            }
+
+        }
+
+    }
+}

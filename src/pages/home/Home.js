@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.scss";
 import Button from "../../comp/button/Button";
-
 import hero_image from "../../assets/hero_section.webp";
 const Home = () => {
   return (
