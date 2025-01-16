@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.scss";
 import { Link } from "react-router-dom";
 import Button from "../button/Button";
@@ -10,15 +10,15 @@ const Header = () => {
     },
     {
       link_name: "About Us",
-      link_path: "/",
+      link_path: "about",
     },
     {
       link_name: "Courses",
-      link_path: "/",
+      link_path: "course",
     },
     {
       link_name: "Blogs",
-      link_path: "/",
+      link_path: "blog",
     },
   ];
 
@@ -27,11 +27,11 @@ const Header = () => {
       <div class="header_parent parent">
         <div class="header-cont cont">
           <div class="logo">
-            <h2>Parmeshwar Kumar</h2>
+            <h2 style={{ fontSize: "32px" }}>Parmeshwar Kumar</h2>
           </div>
           <div class="links">
             {links.map((item, index) => (
-              <Link className="link" key={index}>
+              <Link className="link" to={item.link_path} key={index}>
                 <span className="nav_text">{item.link_name}</span>
               </Link>
             ))}

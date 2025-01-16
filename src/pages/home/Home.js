@@ -8,7 +8,7 @@ const Home = () => {
       <div class="home_parent parent">
         <div class="home_cont cont">
           <div class="right">
-            <p className="tagline" >
+            <p className="tagline">
               <span></span>
               Lorem ipsum dolor sit amet.
             </p>
@@ -32,12 +32,8 @@ const Home = () => {
           <div class="overlay bg-img-cover"></div>
         </div>
 
-        <div class="leaf_image bg-img-contain">
-         
-        </div>
-        <div class="leaf_image2 bg-img-contain">
-         
-        </div>
+        <div class="leaf_image bg-img-contain"></div>
+        <div class="leaf_image2 bg-img-contain"></div>
       </div>
     </>
   );

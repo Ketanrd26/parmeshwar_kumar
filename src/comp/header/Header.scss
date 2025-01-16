@@ -1,7 +1,7 @@
 .header_parent {
   width: 100%;
   background-color: var(--white);
-  border-bottom: 1px solid  rgb(157, 157, 157);
+  border-bottom: 1px solid rgba(157, 157, 157, 0.678);
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   padding: 10px;
@@ -22,13 +22,11 @@
       align-items: center;
       gap: var(--unit);
       height: 100%;
-    //   padding-top: 20px;
 
-      .link{
-        // height: 100%;
+      .link {
         color: var(--black);
         font-weight: 500;
-        
+
         position: relative;
         display: flex;
         justify-content: center;
@@ -36,8 +34,6 @@
         overflow: hidden;
         background-color: var(--white);
         padding: 5px;
-        // border-radius: 10px;
-       
 
         .nav_text {
           position: relative;
@@ -48,45 +44,37 @@
           width: 100%;
           height: 100%;
           padding: 10px 20px;
-
-       
-         
         }
 
-       
-        &::after{
-            width: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background-color: var(--accent2);
-            content: "";
-            height: 100%;
-            z-index: 0;
-        //  display: none;
-        opacity: 0;
-         animation: roatetDiv 2s linear infinite;
-         // transform: rotate(90deg);
-      
-         @keyframes roatetDiv {
-             from{
-                 transform: rotate(0deg);
-             }
-             100%{
-                 transform: rotate(360deg);
-             }
-            
-         }
+        &::after {
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: var(--accent2);
+          content: "";
+          height: 100%;
+          z-index: 0;
+          //  display: none;
+          opacity: 0;
+          animation: roatetDiv 2s linear infinite;
+          // transform: rotate(90deg);
 
-          }
-
-          &:hover{
-
-            &::after{
-              opacity: 1;
-              
+          @keyframes roatetDiv {
+            from {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
             }
           }
+        }
+
+        &:hover {
+          &::after {
+            opacity: 1;
+          }
+        }
       }
     }
   }

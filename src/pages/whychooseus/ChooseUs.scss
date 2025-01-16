@@ -1,0 +1,191 @@
+.choose-us-parent {
+  height: auto;
+  width: 100%;
+  background-color: #effae88e;
+  padding: 60px 10px;
+
+  .choose-us-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: calc(var(--unit));
+
+    .why-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: calc(var(--unit) / 2);
+      .tagline {
+        color: var(--accent2);
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        span {
+          width: 50px;
+          height: 2px;
+          background-color: var(--accent);
+        }
+      }
+    }
+
+    .why-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      .why-left {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: calc(var(--unit) * 5);
+
+        .div-div1 {
+          width: 100%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+
+          .pose-name1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: calc(var(--unit));
+
+            width: 60%;
+
+            img {
+              width: 30%;
+            }
+          }
+        }
+
+        .div-div2 {
+          width: 100%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-start;
+          .pose-name2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: calc(var(--unit));
+
+            width: 60%;
+
+            img {
+              width: 30%;
+            }
+          }
+        }
+        .div-div3 {
+          width: 100%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          .pose-name3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: calc(var(--unit));
+
+            width: 60%;
+
+            img {
+              width: 30%;
+            }
+          }
+        }
+      }
+      .why-middle {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+      .why-right {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: calc(var(--unit) * 5);
+
+        .div-div-r1 {
+          width: 100%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-start;
+
+          .pose-name1-r1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: calc(var(--unit));
+            width: 60%;
+
+            img {
+              width: 30%;
+            }
+          }
+        }
+
+        .div-div-r2 {
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+  
+            .pose-name1-r2 {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: calc(var(--unit));
+              width: 60%;
+  
+              img {
+                width: 30%;
+              }
+            }
+          }
+
+          .div-div-r3 {
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+  
+            .pose-name1-r3 {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: calc(var(--unit));
+              width: 60%;
+  
+              img {
+                width: 30%;
+              }
+            }
+          }
+      }
+    }
+  }
+}
