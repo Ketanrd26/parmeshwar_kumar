@@ -9,13 +9,13 @@ import ChooseUs from "./pages/whychooseus/ChooseUs";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+ 
         <Header />
         <Home />
         <About />
         <ChooseUs />
         <Blog />
-      </BrowserRouter>
+   
     </div>
   );
 }
