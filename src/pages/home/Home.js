@@ -2,6 +2,9 @@ import React from "react";
 import "./Home.scss";
 import Button from "../../comp/button/Button";
 import hero_image from "../../assets/hero_section.webp";
+import About from "../about/About";
+import ChooseUs from "../whychooseus/ChooseUs";
+import Blog from "../blog/Blog";
 const Home = () => {
   return (
     <>
@@ -35,6 +38,11 @@ const Home = () => {
         <div class="leaf_image bg-img-contain"></div>
         <div class="leaf_image2 bg-img-contain"></div>
       </div>
+
+      <About />
+      <ChooseUs />
+      <Blog />
+     
     </>
   );
 };
