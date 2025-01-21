@@ -21,7 +21,7 @@
       gap: calc(var(--unit) * 2);
 
       a {
-        color: var(--white);
+        color: rgba(255, 255, 255, 0.616);
       }
     }
 
@@ -33,7 +33,7 @@
 
       svg {
         font-size: calc(var(--unit) * 1.5);
-        color: var(--white);
+        color: rgba(255, 255, 255, 0.616);
       }
     }
   }
