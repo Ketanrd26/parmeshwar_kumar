@@ -6,6 +6,7 @@ import About from "../about/About";
 import ChooseUs from "../whychooseus/ChooseUs";
 import Blog from "../blog/Blog";
 import BeforeFooter from "../../comp/beforefooter/BeforeFooter";
+import Courses from "../courses/Courses";
 const Home = () => {
   return (
     <>
@@ -43,8 +44,9 @@ const Home = () => {
       <About />
       <ChooseUs />
       <Blog />
+      <Courses />
       <BeforeFooter />
-     
+
     </>
   );
 };
