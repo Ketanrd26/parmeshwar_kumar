@@ -5,6 +5,7 @@ import hero_image from "../../assets/hero_section.webp";
 import About from "../about/About";
 import ChooseUs from "../whychooseus/ChooseUs";
 import Blog from "../blog/Blog";
+import BeforeFooter from "../../comp/beforefooter/BeforeFooter";
 const Home = () => {
   return (
     <>
@@ -42,6 +43,7 @@ const Home = () => {
       <About />
       <ChooseUs />
       <Blog />
+      <BeforeFooter />
      
     </>
   );
