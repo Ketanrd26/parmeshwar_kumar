@@ -1,12 +1,40 @@
 .footer-parent {
-  background: var(--accent2);
-  height: 200px;
+  background: var(--grey);
+  height: 100px;
   width: 100%;
   .cont-footer {
-    border: 1px solid;
-    padding: 10px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
+    .footer-logo {
+      h2 {
+        font-size: 28px;
+      }
+    }
+
+    .footer-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: calc(var(--unit) * 2);
+
+      a {
+        color: var(--white);
+      }
+    }
+
+    .social-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: calc(var(--unit) * 2);
+
+      svg {
+        font-size: calc(var(--unit) * 1.5);
+        color: var(--white);
+      }
+    }
   }
 }

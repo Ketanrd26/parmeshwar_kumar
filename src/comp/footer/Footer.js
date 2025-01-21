@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.scss";
 import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
@@ -19,8 +21,8 @@ const Footer = () => {
           </div>
           <div class="social-links">
             <FaFacebook />
-            <FaFacebook />
-            <FaFacebook />
+            <FaInstagram />
+            <RiTwitterXFill />
           </div>
         </div>
       </div>
