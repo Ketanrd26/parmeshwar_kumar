@@ -32,6 +32,23 @@
     height: 400px;
     background-image: url("../../assets/leaf.png");
     opacity: 0.3;
+    animation: leaf 20s linear infinite;
+    
+
+
+    @keyframes leaf {
+      0%{
+        transform: rotateZ(0deg);
+      }
+      50%{
+        transform: rotateZ(30deg);
+      }
+      100%{
+        transform: rotateZ(0deg);
+      }
+      
+    }
+    
     
   }
 
@@ -44,6 +61,25 @@
     background-image: url("../../assets/leaf.png");
     opacity: 0.3;
     transform: rotateZ(140deg);
+
+    animation: leaf2 20s linear infinite;
+    
+
+
+    @keyframes leaf2 {
+      0%{
+        transform: rotateZ(140deg);
+      }
+      50%{
+        transform: rotateZ(170deg);
+      }
+      100%{
+        transform: rotateZ(140deg);
+      }
+      
+    }
+
+  
   }
 
   .home_cont {
