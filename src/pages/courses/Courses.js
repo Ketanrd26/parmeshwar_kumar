@@ -9,10 +9,10 @@ function Courses() {
                     <div className="course-top">
                         <p className="tagline">
                             <span></span>
-                            Blog
+                            Courses
                         </p>
-                        <h2>Dive in to our blog</h2>
-                        <p>
+                        <h2>Dive in to our Courses</h2>
+                        <p style={{ textAlign: "center", maxWidth: "85ch" }}>
                             Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit
                             amet Ipsum long established fact that a reader will be distracted
                             by the readable.
@@ -20,7 +20,9 @@ function Courses() {
                     </div>
 
                     <div className='course-bottom'>
-                        
+                        <div class="course-box">
+                            
+                        </div>
                     </div>
                 </div>
 

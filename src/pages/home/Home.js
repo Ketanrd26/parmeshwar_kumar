@@ -43,8 +43,8 @@ const Home = () => {
 
       <About />
       <ChooseUs />
-      <Blog />
       <Courses />
+      <Blog />
       <BeforeFooter />
 
     </>

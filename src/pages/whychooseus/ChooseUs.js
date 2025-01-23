@@ -13,7 +13,7 @@ function ChooseUs() {
               <span></span>
               Why Choose Us
             </p>
-            <h2>
+            <h2 style={{ textAlign: "center" }}>
               Lessons Learned <br />
               on the Mat
             </h2>
