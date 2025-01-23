@@ -7,6 +7,7 @@ import ChooseUs from "../whychooseus/ChooseUs";
 import Blog from "../blog/Blog";
 import BeforeFooter from "../../comp/beforefooter/BeforeFooter";
 import Courses from "../courses/Courses";
+import VideoSection from "../../comp/videosection/VideoSection";
 const Home = () => {
   return (
     <>
@@ -44,8 +45,9 @@ const Home = () => {
       <About />
       <ChooseUs />
       <Courses />
+      <VideoSection />
       <Blog />
-      <BeforeFooter />
+      {/* <BeforeFooter /> */}
 
     </>
   );
