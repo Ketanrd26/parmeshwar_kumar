@@ -1,0 +1,25 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  border-radius: 100%;
+  display: flex;
+  border: 1px solid var(--accent);
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+  cursor: pointer;
+  transition: var(--trans);
+  padding: 3px;
+
+  &:hover {
+    background: var(--accent2);
+    border: 1px solid var(--accent2);
+  }
+
+  svg {
+    font-size: 30px;
+    fill: var(--white);
+  }
+}

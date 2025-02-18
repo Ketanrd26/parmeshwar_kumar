@@ -8,6 +8,7 @@ import Blog from "../blog/Blog";
 import BeforeFooter from "../../comp/beforefooter/BeforeFooter";
 import Courses from "../courses/Courses";
 import VideoSection from "../../comp/videosection/VideoSection";
+import Gallery from "../gallery/Gallery";
 const Home = () => {
   return (
     <>
@@ -27,7 +28,7 @@ const Home = () => {
               quis suscipit quo reprehenderit!
             </p>
 
-            <Button text="Contact Us" link="/contact-us" />
+            <Button text="Contact Us" link="/contact" />
           </div>
           <div class="left">
             <img src={hero_image} alt="" />
@@ -44,6 +45,7 @@ const Home = () => {
 
       <About />
       <ChooseUs />
+      <Gallery />
       <Courses />
       <VideoSection />
       <Blog />

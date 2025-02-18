@@ -1,0 +1,53 @@
+.gallery-top-parent {
+    padding: 60px 10px;
+
+    .gallery-cont {
+
+        .gallery-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: var(--unit);
+
+            .tagline {
+                color: var(--accent2);
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+
+                span {
+                    width: 50px;
+                    height: 2px;
+                    background-color: var(--accent);
+                }
+            }
+
+            p {
+                text-align: center;
+                max-width: 85ch;
+            }
+        }
+    }
+}
+
+
+.gallery-parent {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 60px;
+
+
+    img {
+        width: 33.33%;
+        aspect-ratio: 2/1;
+        cursor: pointer;
+        transition: var(--trans);
+
+        &:hover {
+            scale: 1.1;
+        }
+    }
+}

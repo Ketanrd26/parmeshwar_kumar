@@ -27,7 +27,7 @@ const Header = () => {
       <div class="header_parent parent">
         <div class="header-cont cont">
           <div class="logo">
-            <h2 style={{ fontSize: "32px" }}>Parmeshwar Kumar</h2>
+            <Link to="/" style={{ fontSize: "32px", color:"black" }}>Parmeshwar Kumar</Link>
           </div>
           <div class="links">
             {links.map((item, index) => (
@@ -37,7 +37,7 @@ const Header = () => {
             ))}
           </div>
           <div class="button">
-            <Button text="Contact Us" link="/contact-us" />
+            <Button text="Contact Us" link="/contact" />
           </div>
         </div>
       </div>

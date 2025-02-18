@@ -28,7 +28,7 @@ function About() {
               adipisicing elit. Architecto dolores itaque est eius perferendis,
               molestias quae quis suscipit quo reprehenderit!
             </p>
-            <Button text="Contact Us" link="/contact-us" />
+            <Button text="Contact Us" link="/contact" />
           </div>
           <div className="right bg-img-cover">
             <img src={about} />

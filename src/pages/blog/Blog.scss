@@ -4,6 +4,7 @@
   background-color: #effae846;
   position: relative;
   padding: 60px 10px;
+
   .blog-overlay {
     height: 100%;
     width: 100%;
@@ -14,6 +15,7 @@
     left: 0;
     z-index: 2;
   }
+
   .blog-cont {
     display: flex;
     align-items: center;
@@ -75,14 +77,17 @@
           .date {
             display: none;
           }
+
           .below-content {
             display: none;
           }
+
           .overlay-btn {
             opacity: 1;
             transform: translateY(-50%);
           }
         }
+
         .overlay-btn {
           position: absolute;
           left: 0;
@@ -96,6 +101,7 @@
           opacity: 0;
           transition: var(--trans);
         }
+
         .full-img {
           background: url("../../assets/blog_img.jpg");
           width: 100%;

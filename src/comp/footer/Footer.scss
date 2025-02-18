@@ -3,70 +3,27 @@
   height: auto;
   width: 100%;
   padding: 20px 10px;
-  position: relative;
-
-  .f-overflow {
-    background: url("../../assets/get_in_touch_shape.png");
-    aspect-ratio: 1;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation: yogapose 15s linear infinite;
-
-    @keyframes yogapose {
-      0% {
-        transform: rotateZ(0deg);
-      }
-
-      50% {
-        transform: rotateZ(20deg);
-      }
-
-      100% {
-        transform: rotateZ(0deg);
-      }
-
-    }
-  }
-
 
   .cont-footer {
     padding: 10px 20px;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: calc(var(--unit)*2);
+    align-items: center;
+    justify-content:space-between;
+    gap: calc(var(--unit));
 
     .footer-logo {
-      width: 20%;
-
       h2 {
         font-size: 28px;
         color: rgba(255, 255, 255, 0.616);
       }
     }
 
-    .about-us {
-      width: 20%;
-      display: flex;
-      flex-direction: column;
-      gap: calc(var(--unit));
-
-    }
 
     .footer-links {
-      width: 40%;
-
-
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: calc(var(--unit));
-      flex-direction: column;
+      gap: calc(var(--unit)*2);
 
       a {
         color: rgba(255, 255, 255, 0.616);
@@ -74,7 +31,6 @@
     }
 
     .social-links {
-      width: 20%;
       display: flex;
       align-items: flex-start;
       justify-content: flex-start;
@@ -84,7 +40,6 @@
       .social {
         display: flex;
         gap: calc(var(--unit)*2);
-
         align-items: center;
         justify-content: center;
       }

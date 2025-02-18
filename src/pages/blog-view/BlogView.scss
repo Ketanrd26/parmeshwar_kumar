@@ -1,0 +1,44 @@
+.blog-view-parent {
+    height: 100svh;
+    width: 100%;
+    background-color: #effae846;
+    position: relative;
+    padding: 60px 10px;
+    margin-top: 60px;
+
+    .cont-blog-view {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        height: auto;
+
+
+        .image-content {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .image {
+                background: url("../../assets/yogaclass.jpg");
+                width: 100%;
+                height: 400px;
+                border-radius: 10px;
+            }
+
+            .blogname-date {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+        .blog-details {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            height: auto;
+        }
+
+    }
+}
