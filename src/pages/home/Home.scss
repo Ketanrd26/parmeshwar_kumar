@@ -38,9 +38,11 @@
       0% {
         transform: rotateZ(0deg);
       }
+
       50% {
         transform: rotateZ(30deg);
       }
+
       100% {
         transform: rotateZ(0deg);
       }
@@ -63,9 +65,11 @@
       0% {
         transform: rotateZ(140deg);
       }
+
       50% {
         transform: rotateZ(170deg);
       }
+
       100% {
         transform: rotateZ(140deg);
       }
@@ -97,6 +101,7 @@
       justify-content: center;
       align-items: center;
       gap: 5px;
+
       span {
         width: 50px;
         height: 2px;

@@ -1,13 +1,13 @@
 .about-parent {
   width: 100%;
-  height: 100svh;
+  height: auto;
 
   .about-cont {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .left {
+    .about-left {
       padding: 50px 100px 50px 50px;
       background: #e0f1d5d5;
       height: auto;
@@ -35,7 +35,7 @@
       }
     }
 
-    .right {
+    .about-right {
       width: 30%;
 
       img {
@@ -43,6 +43,41 @@
         aspect-ratio: 0.92;
         transform: translateX(-15%);
         border-radius: calc(var(--unit) / 2);
+      }
+    }
+  }
+}
+
+
+@media (max-width:1000px) {
+  .about-parent {
+
+    .about-cont {
+      flex-direction: column;
+      flex-direction: column-reverse;
+      gap: 10px;
+
+      .about-left {
+        width: 100%;
+        align-items: center !important;
+        padding: 10px;
+
+        h2 {
+          font-size: 35px !important;
+        }
+      }
+
+      .about-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 100%;
+          aspect-ratio: 2/1;
+          border-radius: calc(var(--unit) / 2);
+        }
       }
     }
   }

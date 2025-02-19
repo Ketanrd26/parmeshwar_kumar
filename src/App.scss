@@ -57,8 +57,17 @@ h2 {
   font-weight: 600;
 }
 
+@media (max-width:700px) {
+  h2 {
+    font-size: 35px;
+    text-align: center;
+
+  }
+
+}
+
 p {
-  text-align: justify;
+  
   font-size: 1rem;
   line-height: 25px;
   letter-spacing: 0.7px;

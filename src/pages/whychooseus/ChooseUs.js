@@ -32,9 +32,7 @@ function ChooseUs() {
                     Healing Stones
                   </h3>
                   <p>
-                    Cubilia curae tortor amet ridiculus egestas sagittis tempor
-                    nam
-                  </p>
+                    Cubilia curae tortor amet ridiculus                  </p>
                 </div>
               </div>
               <div class="div-div2">
@@ -44,8 +42,7 @@ function ChooseUs() {
                     Healing Stones
                   </h3>
                   <p>
-                    Cubilia curae tortor amet ridiculus egestas sagittis tempor
-                    nam
+                    Cubilia curae tortor amet ridiculus
                   </p>
                 </div>
               </div>
@@ -56,8 +53,7 @@ function ChooseUs() {
                     Healing Stones
                   </h3>
                   <p>
-                    Cubilia curae tortor amet ridiculus egestas sagittis tempor
-                    nam
+                    Cubilia curae tortor amet ridiculus
                   </p>
                 </div>
               </div>
@@ -66,15 +62,14 @@ function ChooseUs() {
               <img src={yoga_pose} alt="" />
             </div>
             <div class="why-right">
-            <div class="div-div-r1">
+              <div class="div-div-r1">
                 <div class="pose-name1-r1 ">
                   <img src={healing_stone} alt="" />
                   <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
                     Healing Stones
                   </h3>
                   <p>
-                    Cubilia curae tortor amet ridiculus egestas sagittis tempor
-                    nam
+                    Cubilia curae tortor amet ridiculus
                   </p>
                 </div>
               </div>
@@ -86,8 +81,7 @@ function ChooseUs() {
                     Healing Stones
                   </h3>
                   <p>
-                    Cubilia curae tortor amet ridiculus egestas sagittis tempor
-                    nam
+                    Cubilia curae tortor amet ridiculus
                   </p>
                 </div>
               </div>
@@ -99,12 +93,11 @@ function ChooseUs() {
                     Healing Stones
                   </h3>
                   <p>
-                    Cubilia curae tortor amet ridiculus egestas sagittis tempor
-                    nam
+                    Cubilia curae tortor amet ridiculus
                   </p>
                 </div>
               </div>
-                
+
             </div>
           </div>
         </div>

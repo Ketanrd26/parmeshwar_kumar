@@ -42,12 +42,24 @@
 
     img {
         width: 33.33%;
-        aspect-ratio: 2/1;
+        aspect-ratio: 1.7;
         cursor: pointer;
         transition: var(--trans);
 
         &:hover {
             scale: 1.1;
+        }
+    }
+}
+
+@media (max-width:700px) {
+    .gallery-parent {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+            aspect-ratio: 1.9;
         }
     }
 }

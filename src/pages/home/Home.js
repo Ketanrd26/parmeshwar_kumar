@@ -12,7 +12,7 @@ import Gallery from "../gallery/Gallery";
 const Home = () => {
   return (
     <>
-      <div class="home_parent parent">
+      {/* <div class="home_parent parent">
         <div class="home_cont cont">
           <div class="right">
             <p className="tagline">
@@ -41,13 +41,13 @@ const Home = () => {
 
         <div class="leaf_image bg-img-contain"></div>
         <div class="leaf_image2 bg-img-contain"></div>
-      </div>
+      </div> */}
 
-      <About />
-      <ChooseUs />
-      <Gallery />
-      <Courses />
-      <VideoSection />
+      {/* <About /> */}
+      {/* <ChooseUs /> */}
+      {/* <Gallery /> */}
+      {/* <Courses /> */}
+      {/* <VideoSection /> */}
       <Blog />
       {/* <BeforeFooter /> */}
 

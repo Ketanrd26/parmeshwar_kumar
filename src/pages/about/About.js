@@ -6,14 +6,14 @@ import about from "../../assets/about.jpg";
 function About() {
   return (
     <>
-      <div className="parent about-parent" id="about">
+      <div className="parent about-parent" id="#about">
         <div className="cont about-cont">
-          <div className="left">
+          <div className="about-left">
             <p className="tagline">
               <span></span>
               About Us
             </p>
-            <h2>
+            <h2 >
               Hi ,I'm <br /> <span>Parmeshwar Kumar</span>
             </h2>
             <p>
@@ -30,7 +30,7 @@ function About() {
             </p>
             <Button text="Contact Us" link="/contact" />
           </div>
-          <div className="right bg-img-cover">
+          <div className="about-right bg-img-cover">
             <img src={about} />
           </div>
         </div>
