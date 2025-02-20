@@ -30,7 +30,7 @@ function Courses() {
 
     return (
         <>
-            <div  id="#course"  className='courses-parent parent bg-img-cover'>
+            <div  id="course"  className='courses-parent parent bg-img-cover'>
                 <div className='courses-cont cont'>
                     <div className="course-top">
                         <p className="tagline">

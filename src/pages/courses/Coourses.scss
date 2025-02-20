@@ -3,6 +3,8 @@
   width: 100%;
   background-color: #effae8;
   background: url("../../assets/course_bg.png");
+  padding: 60px 10px;
+
 
   .courses-cont {
     display: flex;
@@ -57,6 +59,7 @@
         padding: 30px;
         gap: calc(var(--unit)*1.5);
         transition: var(--trans);
+        cursor: pointer;
 
         .gif {
           background: url("../../assets/yoga.gif");
@@ -79,11 +82,17 @@
         }
 
         &:hover {
+          .heading-content{
+          h3{
+            color: white;
+          }
+          p{
+            color: rgba(255, 255, 255, 0.658);
+          }
+          }
           background: var(--accent);
-          color: white;
+          
         }
-
-
       }
     }
 

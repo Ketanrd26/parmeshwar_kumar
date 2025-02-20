@@ -6,7 +6,7 @@ import about from "../../assets/about.jpg";
 function About() {
   return (
     <>
-      <div className="parent about-parent" id="#about">
+      <div className="parent about-parent" id="about">
         <div className="cont about-cont">
           <div className="about-left">
             <p className="tagline">

@@ -8,7 +8,7 @@
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     gap: calc(var(--unit));
 
     .footer-logo {
@@ -18,12 +18,11 @@
       }
     }
 
-
     .footer-links {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: calc(var(--unit)*2);
+      gap: calc(var(--unit) * 2);
 
       a {
         color: rgba(255, 255, 255, 0.616);
@@ -39,7 +38,7 @@
 
       .social {
         display: flex;
-        gap: calc(var(--unit)*2);
+        gap: calc(var(--unit) * 2);
         align-items: center;
         justify-content: center;
       }
@@ -47,6 +46,107 @@
       svg {
         font-size: calc(var(--unit) * 1.5);
         color: rgba(255, 255, 255, 0.616);
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .footer-parent {
+    .cont-footer {
+      gap: 5px;
+
+      .footer-logo {
+        h2 {
+          font-size: 28px;
+          color: rgba(255, 255, 255, 0.616);
+        }
+      }
+
+      .footer-links {
+        gap: calc(var(--unit));
+      }
+
+      .social-links {
+        gap: 5px;
+
+        .social {
+          gap: calc(var(--unit));
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .footer-parent {
+    .cont-footer {
+      flex-direction: column;
+      gap: 20px;
+      .footer-logo {
+        h2 {
+          font-size: 28px;
+          color: rgba(255, 255, 255, 0.616);
+        }
+      }
+      .footer-links {
+        gap: calc(var(--unit));
+      }
+      .social-links {
+        gap: 5px;
+        .social {
+          gap: calc(var(--unit));
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .footer-parent {
+    .cont-footer {
+      flex-direction: column;
+      gap: 20px;
+      .footer-logo {
+        h2 {
+          font-size: 28px;
+          color: rgba(255, 255, 255, 0.616);
+        }
+      }
+      .footer-links {
+        gap: calc(var(--unit));
+      }
+      .social-links {
+        gap: 5px;
+        .social {
+          gap: calc(var(--unit));
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-parent {
+    .cont-footer {
+      flex-direction: column;
+      gap: 20px;
+      .footer-logo {
+        h2 {
+          font-size: 24px;
+          color: rgba(255, 255, 255, 0.616);
+        }
+      }
+      .footer-links {
+        a {
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+      .social-links {
+        .social {
+          gap: calc(var(--unit));
+        }
       }
     }
   }

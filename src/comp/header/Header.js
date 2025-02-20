@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.scss";
 import { Link } from "react-router-dom";
 import Button from "../button/Button";
+import { RxHamburgerMenu } from "react-icons/rx";
+
 const Header = () => {
+  const [navOpen, setNavOpen] = useState(false);
+
+  const handleNavClose = () => {
+    setNavOpen(false);
+  };
+
   const links = [
     {
       link_name: "Home",
@@ -10,15 +18,15 @@ const Header = () => {
     },
     {
       link_name: "About Us",
-      link_path: "about",
+      link_path: "#about",
     },
     {
       link_name: "Courses",
-      link_path: "course",
+      link_path: "#course",
     },
     {
       link_name: "Blogs",
-      link_path: "blog",
+      link_path: "#blog",
     },
   ];
 
@@ -27,19 +35,34 @@ const Header = () => {
       <div class="header_parent parent">
         <div class="header-cont cont">
           <div class="logo">
-            <Link to="/" style={{ fontSize: "32px", color:"black" }}>Parmeshwar Kumar</Link>
+            <Link to="/">
+              Parmeshwar Kumar
+            </Link>
           </div>
           <div class="links">
             {links.map((item, index) => (
-              <Link className="link" to={item.link_path} key={index}>
+              <a className="link" href={item.link_path} key={index}>
                 <span className="nav_text">{item.link_name}</span>
-              </Link>
+              </a>
             ))}
           </div>
           <div class="button">
             <Button text="Contact Us" link="/contact" />
           </div>
+
+          <div class="hamburger-menu" onClick={() => setNavOpen(!navOpen)}>
+            <span className="ham-burger">
+              {" "}
+              <RxHamburgerMenu className="ham-burger-icon" />
+            </span>
+          </div>
         </div>
+      </div>
+
+      {/* mobile nav */}
+
+      <div className="mob-nav">
+        
       </div>
     </>
   );

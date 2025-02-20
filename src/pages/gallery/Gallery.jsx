@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import './Gallery.scss'
-import gimg1 from "../../assets/gallery/166369.jpg"
+// import gimg1 from "../../assets/gallery/166369.jpg"
+import gimg1 from "../../assets/gallery/261215.jpg"
 import gimg2 from "../../assets/gallery/261215.jpg"
 import gimg3 from "../../assets/gallery/261227.jpg"
 import gimg4 from "../../assets/gallery/261314.jpg"
-import gimg5 from "../../assets/gallery/4.jpg"
+import gimg5 from "../../assets/gallery/261227.jpg"
 import gimg6 from "../../assets/gallery/IMG_20240728_080520.jpg"
 
 function Gallery() {

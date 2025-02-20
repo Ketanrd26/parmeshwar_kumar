@@ -42,15 +42,14 @@ const Home = () => {
         <div class="leaf_image bg-img-contain"></div>
         <div class="leaf_image2 bg-img-contain"></div>
       </div>
+      <VideoSection />
 
       <About />
       <ChooseUs />
       <Gallery />
       <Courses />
-      <VideoSection />
       <Blog />
       {/* <BeforeFooter /> */}
-
     </>
   );
 };

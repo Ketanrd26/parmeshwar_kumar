@@ -12,15 +12,15 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <ScrollToTop />
-        <ScrollToTopButton />
+        {/* <ScrollToTop />
+        <ScrollToTopButton /> */}
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog_detail" element={<BlogView />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </div>
   );

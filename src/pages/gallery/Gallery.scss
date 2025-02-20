@@ -43,6 +43,7 @@
     img {
         width: 33.33%;
         aspect-ratio: 1.7;
+        object-fit: cover;
         cursor: pointer;
         transition: var(--trans);
 

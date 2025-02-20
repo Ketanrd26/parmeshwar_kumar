@@ -8,7 +8,6 @@ const Footer = () => {
   return (
     <>
       <div class="parent footer-parent ">
-
         <div class="cont cont-footer">
           <div class="footer-logo">
             <h2>Parmeshwar Kumar</h2>
