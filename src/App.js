@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      {/* <ScrollToTop />
-      <ScrollToTopButton /> */}
-        {/* <Header /> */}
+        <ScrollToTop />
+        <ScrollToTopButton />
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
