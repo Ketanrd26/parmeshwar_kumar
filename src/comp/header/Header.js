@@ -35,9 +35,7 @@ const Header = () => {
       <div class="header_parent parent">
         <div class="header-cont cont">
           <div class="logo">
-            <Link to="/">
-              Parmeshwar Kumar
-            </Link>
+            <Link to="/">Parmeshwar Kumar</Link>
           </div>
           <div class="links">
             {links.map((item, index) => (
@@ -46,9 +44,6 @@ const Header = () => {
               </a>
             ))}
           </div>
-          <div class="button">
-            <Button text="Contact Us" link="/contact" />
-          </div>
 
           <div class="hamburger-menu" onClick={() => setNavOpen(!navOpen)}>
             <span className="ham-burger">
@@ -56,13 +51,23 @@ const Header = () => {
               <RxHamburgerMenu className="ham-burger-icon" />
             </span>
           </div>
+
+          <div class="button">
+            <Button text="Contact Us" link="/contact" />
+          </div>
         </div>
       </div>
 
       {/* mobile nav */}
 
-      <div className="mob-nav">
-        
+      <div className={navOpen ? "mob-nav active" : "mob-nav"}>
+        <div class="links" onClick={handleNavClose}>
+          {links.map((item, index) => (
+            <a className="link" href={item.link_path} key={index}>
+              <span className="nav_text">{item.link_name}</span>
+            </a>
+          ))}
+        </div>
       </div>
     </>
   );

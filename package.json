@@ -10,7 +10,8 @@
     "react-image-lightbox": "^5.1.4",
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
-    "sass": "^1.83.1"
+    "sass": "^1.83.1",
+    "swiper": "^11.2.4"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -76,9 +76,8 @@
         justify-content: center;
 
         img {
-          width: 100%;
-          aspect-ratio: 2/1;
-          border-radius: calc(var(--unit) / 2);
+         transform: none;
+         aspect-ratio: 2/1;
         }
       }
     }
