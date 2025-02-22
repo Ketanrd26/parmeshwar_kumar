@@ -67,14 +67,14 @@ h2 {
 }
 
 p {
-  
+
   font-size: 1rem;
   line-height: 25px;
   letter-spacing: 0.7px;
   word-spacing: 1px;
   font-weight: 500;
   color: var(--text);
-  font-family: "Josefin Sans", serif;
+  font-family: "Gilroy";
 }
 
 .bg-img-cover {
@@ -120,7 +120,6 @@ a {
   .text {
     width: 100%;
     color: var(--white);
-    // padding-right: 20px;
     position: relative;
     z-index: 2;
   }
@@ -160,5 +159,13 @@ a {
       border-radius: 0;
       transform: translate(0) !important;
     }
+  }
+}
+
+@media (max-width:500px) {
+  .btn {
+
+    padding: 8px;
+
   }
 }

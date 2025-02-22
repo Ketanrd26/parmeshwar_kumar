@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 import Button from "../../comp/button/Button";
-import about from "../../assets/about.jpg";
+import about from "../../assets/gallery/about.webp";
 
 function About() {
   return (

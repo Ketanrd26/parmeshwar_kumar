@@ -45,6 +45,8 @@
         aspect-ratio: 0.92;
         transform: translateX(-15%);
         border-radius: calc(var(--unit) / 2);
+        object-fit: cover;
+    
       }
     }
   }

@@ -17,28 +17,24 @@ function Inspiration() {
             img: image1
         },
         {
-            heading: "Inspiration 2",
+            heading: "Inspiration 1",
             content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore voluptas necessitatibus, magnam quas porro labore eius nemo aspernatur repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore voluptas necessitatibus, magnam quas porro labore eius nemo aspernatur repellendus",
             img: image1
         },
-        {
-            heading: "Inspiration 3",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore voluptas necessitatibus, magnam quas porro labore eius nemo aspernatur repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore voluptas necessitatibus, magnam quas porro labore eius nemo aspernatur repellendus",
-            img: image1
-        },
+       
     ]
 
 
     return (
         <>
-            <div className="parent inspiration-parent">
+            <div className="parent inspiration-parent" id='inspiration'>
                 <div className="cont inspiration-container">
                     <div className="inspiration-top">
                         <p className="tagline">
                             <span></span>
                             My Inspiration
                         </p>
-                        <h2>Explore, Learn, Create, Grow, Inspire</h2>
+                        <h2>Explore, Learn, Grow, Inspire</h2>
                         <p>
                             Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit
                             amet Ipsum long established fact that a reader will be distracted
@@ -51,7 +47,7 @@ function Inspiration() {
                             spaceBetween={30}
                             centeredSlides={true}
                             autoplay={{
-                                delay: 2500,
+                                delay: 2500000,
                                 disableOnInteraction: false,
                             }}
                             pagination={{

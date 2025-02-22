@@ -3,12 +3,24 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import "./Gallery.scss";
 // import gimg1 from "../../assets/gallery/166369.jpg"
-import gimg1 from "../../assets/gallery/261215.jpg";
-import gimg2 from "../../assets/gallery/261215.jpg";
-import gimg3 from "../../assets/gallery/261227.jpg";
-import gimg4 from "../../assets/gallery/261314.jpg";
-import gimg5 from "../../assets/gallery/261227.jpg";
-import gimg6 from "../../assets/gallery/IMG_20240728_080520.jpg";
+import gimg1 from "../../assets/gallery/img1.jpeg";
+import gimg2 from "../../assets/gallery/img2.jpeg";
+import gimg3 from "../../assets/gallery/img3.jpg";
+import gimg4 from "../../assets/gallery/img19.jpeg";
+import gimg5 from "../../assets/gallery/img5.jpg";
+import gimg6 from "../../assets/gallery/img6.jpg";
+import gimg7 from "../../assets/gallery/img7.jpg";
+import gimg8 from "../../assets/gallery/img8.jpg";
+import gimg9 from "../../assets/gallery/img9.jpeg";
+import gimg10 from "../../assets/gallery/img10.jpeg";
+import gimg11 from "../../assets/gallery/img11.jpg";
+import gimg12 from "../../assets/gallery/img12.jpg";
+import gimg13 from "../../assets/gallery/img13.jpeg";
+import gimg14 from "../../assets/gallery/img14.jpeg";
+import gimg15 from "../../assets/gallery/img15.jpeg";
+import gimg16 from "../../assets/gallery/img16.jpeg";
+import gimg17 from "../../assets/gallery/img17.jpeg";
+import gimg18 from "../../assets/gallery/img18.jpeg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -22,8 +34,8 @@ function Gallery() {
 
   const imageSlides = [
     { images: [gimg1, gimg2, gimg3, gimg4, gimg5, gimg6] },
-    { images: [gimg1, gimg2, gimg3, gimg4, gimg5, gimg6] },
-    { images: [gimg1, gimg2, gimg3, gimg4, gimg5, gimg6] },
+    { images: [gimg7, gimg8, gimg9, gimg10, gimg11, gimg12] },
+    { images: [gimg13, gimg14, gimg15, gimg16, gimg17, gimg18] },
   ];
 
   return (

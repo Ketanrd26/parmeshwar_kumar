@@ -21,8 +21,8 @@ const Header = () => {
       link_path: "#about",
     },
     {
-      link_name: "Courses",
-      link_path: "#course",
+      link_name: "Inspiration",
+      link_path: "#inspiration",
     },
     {
       link_name: "Blogs",

@@ -70,6 +70,7 @@
             from {
               transform: rotate(0deg);
             }
+
             100% {
               transform: rotate(360deg);
             }
@@ -110,6 +111,7 @@
   justify-content: center;
   transition: var(--trans);
   display: flex;
+
   a {
     color: var(--accent);
     text-decoration: none;
@@ -130,14 +132,17 @@
 @media (max-width: 1000px) {
   .header_parent {
     gap: 0px;
+
     .header-cont {
       justify-content: space-between;
       gap: 10px;
+
       .logo {
         a {
           font-size: 20px;
         }
       }
+
       .links {
         gap: 10px;
       }
@@ -157,6 +162,55 @@
         color: white;
         cursor: pointer;
       }
+    }
+  }
+}
+
+
+@media (max-width:500px) {
+  .header_parent {
+    .header-cont {
+      justify-content: center;
+      gap: 30px;
+
+      .logo {
+        a {
+          font-size: 18px;
+          color: black;
+        }
+      }
+
+      .links {
+        display: none;
+      }
+
+      .hamburger-menu {
+        .ham-burger {
+          .ham-burger-icon {
+            color: var(--accent);
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:450px) {
+  .header_parent {
+    .header-cont {
+      justify-content: space-between;
+
+      .button {
+        display: none;
+      }
+
+
+      .links {
+        display: none;
+      }
+
+
     }
   }
 }
