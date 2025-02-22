@@ -14,13 +14,12 @@ function ChooseUs() {
               Why Choose Us
             </p>
             <h2 style={{ textAlign: "center" }}>
-              Lessons Learned <br />
-              on the Mat
+              Lokah samastah sukino bhavantu
             </h2>
             <p style={{ textAlign: "center", maxWidth: "85ch" }}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
-              voluptate nesciunt nisi tempora eum nesciunt nisi tempora eum
-              nesciunt nisi tempora eum error!
+              May the entire universe
+              Be filled with
+              Peace, Joy, Love and Light
             </p>
           </div>
           <div class="why-bottom">
@@ -29,20 +28,23 @@ function ChooseUs() {
                 <div class="pose-name1 ">
                   <img src={healing_stone} alt="" />
                   <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
-                    Healing Stones
+                    Hatha Yoga
                   </h3>
-                  <p>
-                    Cubilia curae tortor amet ridiculus                  </p>
+                  <p style={{ textAlign: "center" }}>
+                    Balance and fitness through traditional hatha yoga, discover
+                    the Ancient yoga in Modern yoga style.
+                  </p>
                 </div>
               </div>
               <div class="div-div2">
                 <div class="pose-name2">
                   <img src={healing_stone} alt="" />
                   <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
-                    Healing Stones
+                    Become Flexible
                   </h3>
-                  <p>
-                    Cubilia curae tortor amet ridiculus
+                  <p style={{ textAlign: "center" }}>
+                    Increase flexibility & agility, strengthens the muscles
+                    & tendons reduce the risk of injury.
                   </p>
                 </div>
               </div>
@@ -50,10 +52,11 @@ function ChooseUs() {
                 <div class="pose-name3 ">
                   <img src={healing_stone} alt="" />
                   <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
-                    Healing Stones
+                    Burn Extra Fat
                   </h3>
-                  <p>
-                    Cubilia curae tortor amet ridiculus
+                  <p style={{ textAlign: "center" }}>
+                    Reduce extra fat, learn yogic technique to maintain
+                    weight and become stronger.
                   </p>
                 </div>
               </div>
@@ -66,10 +69,12 @@ function ChooseUs() {
                 <div class="pose-name1-r1 ">
                   <img src={healing_stone} alt="" />
                   <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
-                    Healing Stones
+                    Breathing Techniques
                   </h3>
-                  <p>
-                    Cubilia curae tortor amet ridiculus
+                  <p style={{ textAlign: "center" }}>
+                    Learn powerful yogic breathing techniques and
+                    find calmness, concentration, channelizing the energy, rest, rhythm,
+                    repair & rejuvenation on body and mind.
                   </p>
                 </div>
               </div>
@@ -78,10 +83,11 @@ function ChooseUs() {
                 <div class="pose-name1-r2 ">
                   <img src={healing_stone} alt="" />
                   <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
-                    Healing Stones
+                    Be Calm
                   </h3>
-                  <p>
-                    Cubilia curae tortor amet ridiculus
+                  <p style={{ textAlign: "center" }}>
+                    Reduce stress, “Chose peace over panic”. Improve
+                    concentration.
                   </p>
                 </div>
               </div>
@@ -90,10 +96,12 @@ function ChooseUs() {
                 <div class="pose-name1-r3 ">
                   <img src={healing_stone} alt="" />
                   <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
-                    Healing Stones
+                    Fall in Love with YOGA
                   </h3>
-                  <p>
-                    Cubilia curae tortor amet ridiculus
+                  <p style={{ textAlign: "center" }}>
+                    As the saying goes there is someone for
+                    everyone - there is a Yoga or Exercise for everyone too, you just have to
+                    search for it
                   </p>
                 </div>
               </div>

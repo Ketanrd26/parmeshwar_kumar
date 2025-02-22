@@ -53,7 +53,7 @@ const Header = () => {
           </div>
 
           <div class="button">
-            <Button text="Contact Us" link="/contact" />
+            <Button text="Contact Us" link_path="#contact" />
           </div>
         </div>
       </div>

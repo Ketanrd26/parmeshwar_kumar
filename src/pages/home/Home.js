@@ -19,15 +19,13 @@ const Home = () => {
           <div class="right">
             <p className="tagline">
               <span></span>
-              Lorem ipsum dolor sit amet.
+              Certified Yoga Instructor | 8+ Years Experience
             </p>
             <h2>
-              Lorem ipsum dolor <br /> <span>sit amet.</span>
+            Find balance, Breathe better <br /> <span>Live healthier</span>
             </h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Architecto dolores itaque est eius perferendis, molestias quae
-              quis suscipit quo reprehenderit!
+            Transforming lives through Yoga, Meditation, and Mindfulness. Helping individuals build strength, flexibility, and inner peace.
             </p>
 
             <Button text="Contact Us" link="/contact" />

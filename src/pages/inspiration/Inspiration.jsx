@@ -36,9 +36,7 @@ function Inspiration() {
                         </p>
                         <h2>Explore, Learn, Grow, Inspire</h2>
                         <p>
-                            Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit
-                            amet Ipsum long established fact that a reader will be distracted
-                            by the readable.
+                        Yoga is more than just movement—it’s a way of life. Inspired by ancient traditions and modern well-being, I strive to help others find balance, strength, and inner peace.
                         </p>
                     </div>
 

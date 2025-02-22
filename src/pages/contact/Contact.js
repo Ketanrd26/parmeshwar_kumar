@@ -17,18 +17,18 @@ function Contact() {
     {
       icon: <MdOutlinePhone />,
       name: "Mobile",
-      des: "+974 55398248",
+      des: "+91 7620511606",
     },
     {
       icon: <SlLocationPin />,
       name: "Address",
-      des: "Al Bidda Park, Shop no1. 1 Zoon12, Doha",
+      des: "Survey no 213, Rajeev Nagar North, Viman Nagar, Pune, Maharashtra - 411014",
     },
   ];
 
   return (
     <>
-      <div class="parent main-parent bg-img-cover">
+      <div class="parent main-parent bg-img-cover" id="contact">
         <div class="contact-overlay bg-img-cover"></div>
         <div class="cont main-cont">
           <div className=" contact-parent">
@@ -53,13 +53,11 @@ function Contact() {
               <div className="contact-left">
                 <h4 style={{ fontSize: "24px" }}>Get in touch</h4>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima maiores eius iste nesciunt quia quae eius iste nesciunt
-                  quia quae iste nesciunt quia quae
+                  Have questions or ready to begin your Yoga journey? Reach out today! Whether it’s flexibility, mindfulness, or overall well-being, I’m here to guide you. Let’s connect and transform together!
                 </p>
                 <form class="form">
                   <div class="name-last">
-                    <input type="text" name="fname"  placeholder="First Name" />
+                    <input type="text" name="fname" placeholder="First Name" />
                     <input type="text" placeholder="Last Email" />
                   </div>
                   <div class="name-last">
