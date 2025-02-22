@@ -9,6 +9,8 @@ import BeforeFooter from "../../comp/beforefooter/BeforeFooter";
 import Courses from "../courses/Courses";
 import VideoSection from "../../comp/videosection/VideoSection";
 import Gallery from "../gallery/Gallery";
+import Contact from "../contact/Contact";
+import Inspiration from "../inspiration/Inspiration";
 const Home = () => {
   return (
     <>
@@ -48,7 +50,9 @@ const Home = () => {
       <ChooseUs />
       <Gallery />
       {/* <Courses /> */}
+      <Inspiration />
       <Blog />
+    <Contact />
       {/* <BeforeFooter /> */}
     </>
   );

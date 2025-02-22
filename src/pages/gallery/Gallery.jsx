@@ -28,7 +28,7 @@ function Gallery() {
 
   return (
     <div>
-      <div className="parent gallery-top-parent">
+      <div className="parent gallery-parent">
         <div className="cont gallery-cont">
           <div className="gallery-top">
             <p className="tagline">
@@ -44,18 +44,18 @@ function Gallery() {
           </div>
         </div>
       </div>
-      <div className="parent gallery-parent">
+      <div className="gallery-images-parent">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 250000,
             disableOnInteraction: false,
           }}
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+          navigation={false}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >

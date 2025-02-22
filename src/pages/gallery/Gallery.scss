@@ -1,4 +1,4 @@
-.gallery-top-parent {
+.gallery-parent {
   padding: 60px 10px;
 
   .gallery-cont {
@@ -32,32 +32,15 @@
   }
 }
 
-.gallery-parent {
-  width: 100%;
-  height: 100%;
-  padding-bottom: 60px;
-
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-
+.gallery-images-parent {
   .swiper-slide {
-    width: 100%;
-    height: 100vh;
-
-
     .swiperr {
-      width: 100%;
-      height: 100%;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      background-color: black;
       grid-template-rows: repeat(2, 1fr);
-
       img {
+        aspect-ratio: 4/3;
         width: 100%;
-        height: 100%;
         object-fit: cover;
       }
     }
