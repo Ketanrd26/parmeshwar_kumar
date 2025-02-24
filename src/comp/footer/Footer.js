@@ -19,8 +19,8 @@ const Footer = () => {
               <Link to="/cookies">Cookies</Link>
             </div>
             <div className="social-icons">
-              <FaFacebook />
-              <FaInstagram />
+              <a href="https://www.facebook.com/share/15rwp1h7FB/" target="_blank"><FaFacebook /></a>
+              <a href=" https://www.instagram.com/parmeshwarkumar1846?igsh=YzljYTk1ODg3Zg==" target="_blank"><FaInstagram /></a>
             </div>
           </div>
         </div>
