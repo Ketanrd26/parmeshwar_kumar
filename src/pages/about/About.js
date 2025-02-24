@@ -11,7 +11,7 @@ function About() {
           <div className="about-left">
             <p className="tagline">
               <span></span>
-              About Us
+              Our Story
             </p>
             <h2 >
               Hi ,I'm <br /> <span>Parmeshwar Kumar</span>

@@ -45,7 +45,7 @@ function Gallery() {
           <div className="gallery-top">
             <p className="tagline">
               <span></span>
-              Gallery
+              Frame & Focus
             </p>
             <h2>Explore Our Yoga Journey</h2>
             <p>
