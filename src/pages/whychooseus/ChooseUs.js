@@ -2,6 +2,12 @@ import React from "react";
 import "./ChooseUs.scss";
 import yoga_pose from "../../assets/yoga_pose.png";
 import healing_stone from "../../assets/stone.png";
+import breathing from "../../assets/why-choose/Breathing.webp";
+import hatya from "../../assets/why-choose/Hatha_Yoga.webp";
+import flexible from "../../assets/why-choose/flexible.webp";
+import calm from "../../assets/why-choose/calm.webp";
+import burn_fat from "../../assets/why-choose/burn_fat.webp";
+import loveWithYoga from "../../assets/why-choose/lovewithyoga.webp";
 
 function ChooseUs() {
   return (
@@ -25,9 +31,9 @@ function ChooseUs() {
           <div class="why-bottom">
             <div class="why-left">
               <div class="div-div1">
-                <div class="pose-name1 ">
-                  <img src={healing_stone} alt="" />
-                  <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
+                <div class="pose-name1 pose-name ">
+                  <img src={hatya} alt="" />
+                  <h3>
                     Hatha Yoga
                   </h3>
                   <p style={{ textAlign: "center" }}>
@@ -37,9 +43,9 @@ function ChooseUs() {
                 </div>
               </div>
               <div class="div-div2">
-                <div class="pose-name2">
-                  <img src={healing_stone} alt="" />
-                  <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
+                <div class="pose-name2 pose-name">
+                  <img src={flexible} alt="" />
+                  <h3 >
                     Become Flexible
                   </h3>
                   <p style={{ textAlign: "center" }}>
@@ -50,8 +56,8 @@ function ChooseUs() {
               </div>
               <div class="div-div3">
                 <div class="pose-name3 ">
-                  <img src={healing_stone} alt="" />
-                  <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
+                  <img src={burn_fat} alt="" />
+                  <h3 >
                     Burn Extra Fat
                   </h3>
                   <p style={{ textAlign: "center" }}>
@@ -67,8 +73,8 @@ function ChooseUs() {
             <div class="why-right">
               <div class="div-div-r1">
                 <div class="pose-name1-r1 ">
-                  <img src={healing_stone} alt="" />
-                  <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
+                  <img src={breathing} alt="" />
+                  <h3 >
                     Breathing Techniques
                   </h3>
                   <p style={{ textAlign: "center" }}>
@@ -81,8 +87,8 @@ function ChooseUs() {
 
               <div class="div-div-r2">
                 <div class="pose-name1-r2 ">
-                  <img src={healing_stone} alt="" />
-                  <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
+                  <img src={calm} alt="" />
+                  <h3 >
                     Be Calm
                   </h3>
                   <p style={{ textAlign: "center" }}>
@@ -94,8 +100,8 @@ function ChooseUs() {
 
               <div class="div-div-r3">
                 <div class="pose-name1-r3 ">
-                  <img src={healing_stone} alt="" />
-                  <h3 style={{ fontSize: "30px", fontWeight: "400" }}>
+                  <img src={loveWithYoga} alt="" />
+                  <h3 >
                     Fall in Love with YOGA
                   </h3>
                   <p style={{ textAlign: "center" }}>

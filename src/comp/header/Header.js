@@ -45,15 +45,17 @@ const Header = () => {
             ))}
           </div>
 
+
+
+          <div class="button">
+            <Button text="Contact Us" link_path="#contact" />
+          </div>
+
           <div class="hamburger-menu" onClick={() => setNavOpen(!navOpen)}>
             <span className="ham-burger">
               {" "}
               <RxHamburgerMenu className="ham-burger-icon" />
             </span>
-          </div>
-
-          <div class="button">
-            <Button text="Contact Us" link_path="#contact" />
           </div>
         </div>
       </div>
