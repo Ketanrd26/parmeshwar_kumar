@@ -5,23 +5,19 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import image1 from "../../assets/about.jpg";
+import image1 from "../../assets/Maharashi_Patanjali.webp";
 
 function Inspiration() {
 
 
     const swiper_data = [
         {
-            heading: "Inspiration 1",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore voluptas necessitatibus, magnam quas porro labore eius nemo aspernatur repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore voluptas necessitatibus, magnam quas porro labore eius nemo aspernatur repellendus",
+            heading: "Maharshi Patanjali",
+            content: "Maharshi Patanjali, the revered sage, is the father of Yoga and the author of the Yoga Sutras. His wisdom on discipline, self-mastery, and inner peace inspires me to approach challenges with clarity and balance. His teachings shape my journey, reminding me that progress comes through dedication and mindfulness.",
             img: image1
         },
-        {
-            heading: "Inspiration 1",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore voluptas necessitatibus, magnam quas porro labore eius nemo aspernatur repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore voluptas necessitatibus, magnam quas porro labore eius nemo aspernatur repellendus",
-            img: image1
-        },
-       
+
+
     ]
 
 
@@ -36,7 +32,7 @@ function Inspiration() {
                         </p>
                         <h2>Explore, Learn, Grow, Inspire</h2>
                         <p>
-                        Yoga is more than just movement—it’s a way of life. Inspired by ancient traditions and modern well-being, I strive to help others find balance, strength, and inner peace.
+                            Yoga is more than just movement—it’s a way of life. Inspired by ancient traditions and modern well-being, I strive to help others find balance, strength, and inner peace.
                         </p>
                     </div>
 

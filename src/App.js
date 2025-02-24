@@ -7,6 +7,8 @@ import Contact from "./pages/contact/Contact";
 import BlogView from "./pages/blog-view/BlogView";
 import ScrollToTop from "./other/ScrollToTop";
 import ScrollToTopButton from "./other/ScrollToTopButton";
+import Cookies from "./pages/cookies/Cookies";
+import Privacy from "./pages/privacy/Privacy";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog_detail" element={<BlogView />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/cookies" element={<Cookies />} />
         </Routes>
         <Footer />
       </BrowserRouter>

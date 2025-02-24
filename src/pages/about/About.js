@@ -17,17 +17,8 @@ function About() {
               Hi ,I'm <br /> <span>Parmeshwar Kumar</span>
             </h2>
             <p>
-              I am a creative Yoga Instructor with 08+ years of Yoga
-              teaching experience, holding a degree Master’s in Yogashastra from
-              Kavikulaguru Kalidas Sanskrit University Nagpur.
-              I working as a YOGA INSTRUCTOR at Residency Club Pune, a Visiting
-              Faculty for YOGA and MEDITATION in Cusrow Wadia Institute of Technology
-              Pune.Expertise in various Yoga styles, Mindfulness practices and Meditation
-              techniques, providing a holistic approach to well-being.
-              Instructed Yoga classes for diverse groups including seniors, beginners and
-              advanced practitioners tailoring each session the practitioner’s specific needs.
-              I believes that positive attitude and enthusiasm are essential for practice, to
-              overcome limitations and resistance.
+            I’m a passionate Yoga Instructor with over 8 years of experience, helping people move, breathe, and feel better. I hold a Master’s in Yogashastra from Kavikulaguru Kalidas Sanskrit University, Nagpur, and currently teach at Residency Club Pune and Cusrow Wadia Institute of Technology as a Visiting Faculty for Yoga & Meditation.<br />
+            My approach is simple—blend traditional yoga with modern techniques to make it accessible for everyone, whether you’re a beginner, a senior, or an advanced practitioner. I believe yoga is more than just poses; it’s about energy, mindfulness, and breaking limits. With the right attitude, anyone can transform their practice and life. Let’s flow, grow, and breathe together!
             </p>
             <Button text="Contact Us" link="/contact" />
           </div>

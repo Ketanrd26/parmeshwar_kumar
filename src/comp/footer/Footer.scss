@@ -12,44 +12,59 @@
     gap: calc(var(--unit));
 
     .footer-logo {
-      h2 {
-        font-size: 28px;
-        color: rgba(255, 255, 255, 0.616);
-        display: flex;align-items: center;justify-content: center;
-        gap: var(--unit);
-      }
-    }
-
-    .footer-links {
+      width: 100%;
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: calc(var(--unit) * 2);
+      justify-content: space-between;
 
-      a {
+      h2 {
+        font-size: 18px;
         color: rgba(255, 255, 255, 0.616);
-      }
-    }
-
-    .social-links {
-      display: flex;
-      align-items: flex-start;
-      justify-content: flex-start;
-      gap: calc(var(--unit));
-      flex-direction: column;
-
-      .social {
         display: flex;
-        gap: calc(var(--unit) * 2);
         align-items: center;
         justify-content: center;
+        gap: var(--unit);
       }
 
-      svg {
-        font-size: calc(var(--unit) * 1.5);
-        color: rgba(255, 255, 255, 0.616);
+      .privacy {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+       
+        cursor: pointer;
+        font-size: 16px;
+        a{
+          color: rgba(255, 255, 255, 0.616);
+        }
+
+        span{
+          &:hover{
+            color: white;
+          }
+        }
+
+        
+      }
+
+      .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        cursor: pointer;
+
+        svg{
+          font-size: 26px;
+          color: rgba(255, 255, 255, 0.616);
+        }
+
+
+
       }
     }
+
+
   }
 }
 
@@ -85,17 +100,21 @@
     .cont-footer {
       flex-direction: column;
       gap: 20px;
+
       .footer-logo {
         h2 {
           font-size: 28px;
           color: rgba(255, 255, 255, 0.616);
         }
       }
+
       .footer-links {
         gap: calc(var(--unit));
       }
+
       .social-links {
         gap: 5px;
+
         .social {
           gap: calc(var(--unit));
         }
@@ -109,17 +128,21 @@
     .cont-footer {
       flex-direction: column;
       gap: 20px;
+
       .footer-logo {
         h2 {
           font-size: 28px;
           color: rgba(255, 255, 255, 0.616);
         }
       }
+
       .footer-links {
         gap: calc(var(--unit));
       }
+
       .social-links {
         gap: 5px;
+
         .social {
           gap: calc(var(--unit));
         }
@@ -133,18 +156,21 @@
     .cont-footer {
       flex-direction: column;
       gap: 20px;
+
       .footer-logo {
         h2 {
           font-size: 24px;
           color: rgba(255, 255, 255, 0.616);
         }
       }
+
       .footer-links {
         a {
           font-size: 16px;
           font-weight: 300;
         }
       }
+
       .social-links {
         .social {
           gap: calc(var(--unit));

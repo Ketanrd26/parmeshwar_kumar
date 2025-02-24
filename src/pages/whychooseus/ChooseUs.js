@@ -11,7 +11,7 @@ function ChooseUs() {
           <div class="why-header">
             <p className="tagline">
               <span></span>
-              Why Choose Us
+              My Promise to You
             </p>
             <h2 style={{ textAlign: "center" }}>
               Lokah samastah sukino bhavantu

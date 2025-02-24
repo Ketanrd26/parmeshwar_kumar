@@ -2,7 +2,7 @@
   --black: #1a1a1a;
   --white: #ffffff;
   --blue: #191825;
-  --accent: #183b00;
+  --accent: #0e575a;
   --accent2: #00519d;
   --text: rgb(107, 107, 107);
   --unit: 20px;
@@ -13,14 +13,13 @@
   --trans2: all 0.5s ease-out;
   --shadow: 0px 0px 20px rgba(0, 0, 0, 0.329);
   --unit: 16px;
-  --bg-color: #f3f7fc;
+  --bg-color: #ebe1d9;
 }
 
 *::before,
 *::after,
 * {
   box-sizing: border-box;
-
   margin: 0px;
   font-family: "Poppins", sans-serif;
   line-height: 120%;
@@ -46,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Gilroy";
+  font-family: "Poppins";
 }
 
 h2 {
@@ -74,7 +73,7 @@ p {
   word-spacing: 1px;
   font-weight: 500;
   color: var(--text);
-  font-family: "Gilroy";
+  font-family: "Poppins";
 }
 
 .bg-img-cover {

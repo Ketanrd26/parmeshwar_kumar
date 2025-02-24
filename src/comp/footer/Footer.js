@@ -11,7 +11,17 @@ const Footer = () => {
       <div class="parent footer-parent ">
         <div class="cont cont-footer">
           <div class="footer-logo">
+            <a href="https://wa.me/+917028997574" style={{ color: "rgba(255, 255, 255, 0.616)" }}> Developed by Wave Solutions</a>
+
             <h2><AiOutlineCopyrightCircle />Parmeshwar Kumar</h2>
+            <div className="privacy">
+              <Link to="/privacy">Privacy</Link>
+              <Link to="/cookies">Cookies</Link>
+            </div>
+            <div className="social-icons">
+              <FaFacebook />
+              <FaInstagram />
+            </div>
           </div>
         </div>
       </div>
