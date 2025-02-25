@@ -1,6 +1,6 @@
 import React from "react";
 import "./ChooseUs.scss";
-import yoga_pose from "../../assets/yoga_pose.png";
+import yoga_pose from "../../assets/hero_section.webp";
 import healing_stone from "../../assets/stone.png";
 import breathing from "../../assets/why-choose/Breathing.webp";
 import hatya from "../../assets/why-choose/Hatha_Yoga.webp";
