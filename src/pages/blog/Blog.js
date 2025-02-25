@@ -3,27 +3,8 @@ import "./Blog.scss";
 import { SlCalender } from "react-icons/sl";
 import img1 from "../../assets/blog_img.jpg";
 import Button from "../../comp/button/Button";
+import data from "../../Data";
 const Blog = () => {
-  const data = [
-    {
-      img: img1,
-      date: "January 12, 2025",
-      title: "Yoga For better sleep and health",
-      content: "when an unknown printer took a galley of type galley of type",
-    },
-    {
-      img: img1,
-      date: "January 12, 2025",
-      title: "Yoga For better sleep and health",
-      content: "when an unknown printer took a galley of type galley of type",
-    },
-    {
-      img: img1,
-      date: "January 12, 2025",
-      title: "Yoga For better sleep and health",
-      content: "when an unknown printer took a galley of type galley of type",
-    },
-  ];
 
   return (
     <>
@@ -63,7 +44,7 @@ const Blog = () => {
                 </div>
                 <div className="below-content">
                   <h4>{item.title}</h4>
-                  <p>{item.content}</p>
+                  <p>{item.content.split(" ").slice(0, 14).join(" ")}...</p>
                 </div>
               </div>
             ))}
