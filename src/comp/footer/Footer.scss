@@ -10,13 +10,17 @@
     align-items: center;
     justify-content: center;
     gap: calc(var(--unit));
-  
 
     .footer-logo {
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between;
+
+      a {
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.616);
+      }
 
       h2 {
         font-size: 18px;
@@ -25,6 +29,8 @@
         align-items: center;
         justify-content: center;
         gap: var(--unit);
+        font-weight: 300;
+
       }
 
       .privacy {
@@ -32,12 +38,12 @@
         gap: 30px;
         align-items: center;
         justify-content: center;
-
         cursor: pointer;
         font-size: 16px;
 
         a {
           color: rgba(255, 255, 255, 0.616);
+          font-weight: 300;
         }
 
         span {
@@ -45,8 +51,6 @@
             color: white;
           }
         }
-
-
       }
 
       .social-icons {
@@ -60,30 +64,19 @@
           font-size: 26px;
           color: rgba(255, 255, 255, 0.616);
         }
-
-
-
       }
     }
-
- 
-
-
   }
 }
 
 @media (max-width: 950px) {
   .footer-parent {
-
-
     .cont-footer {
-
-
       .footer-logo {
         flex-direction: column;
         gap: 20px;
         justify-content: flex-start;
-        align-items:center;
+        align-items: center;
 
         h2 {
           font-size: 18px;
@@ -112,16 +105,8 @@
               color: white;
             }
           }
-
-
         }
-              }
       }
-
-
-
-
     }
-  
-
+  }
 }

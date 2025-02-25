@@ -28,7 +28,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
 body {
   width: 100%;
   overflow-x: hidden !important;
@@ -56,25 +55,21 @@ h2 {
   font-weight: 600;
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
   h2 {
     font-size: 30px;
     text-align: center;
   }
-
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   h2 {
     font-size: 24px;
     font-weight: 600;
   }
-
 }
 
-
 p {
-
   font-size: 1rem;
   line-height: 25px;
   letter-spacing: 0.7px;
@@ -169,10 +164,8 @@ a {
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .btn {
-
     padding: 8px;
-
   }
 }
