@@ -23,9 +23,7 @@ function ChooseUs() {
               Lokah samastah sukino bhavantu
             </h2>
             <p style={{ textAlign: "center", maxWidth: "85ch" }}>
-              May the entire universe
-              Be filled with
-              Peace, Joy, Love and Light
+              May the entire universe Be filled with Peace, Joy, Love and Light
             </p>
           </div>
           <div class="why-bottom">
@@ -33,9 +31,7 @@ function ChooseUs() {
               <div class="div-div1">
                 <div class="pose-name1 pose-name ">
                   <img src={hatya} alt="" />
-                  <h3>
-                    Hatha Yoga
-                  </h3>
+                  <h3>Hatha Yoga</h3>
                   <p style={{ textAlign: "center" }}>
                     Balance and fitness through traditional hatha yoga, discover
                     the Ancient yoga in Modern yoga style.
@@ -44,25 +40,22 @@ function ChooseUs() {
               </div>
               <div class="div-div2">
                 <div class="pose-name2 pose-name">
-                  <img src={flexible} alt="" />
-                  <h3 >
-                    Become Flexible
-                  </h3>
+                  <img src={burn_fat} alt="" />
+                  <h3>Burn Extra Fat</h3>
                   <p style={{ textAlign: "center" }}>
-                    Increase flexibility & agility, strengthens the muscles
-                    & tendons reduce the risk of injury.
+                    Reduce extra fat, learn yogic technique to maintain weight
+                    and become stronger.
                   </p>
                 </div>
               </div>
               <div class="div-div3">
                 <div class="pose-name3 ">
-                  <img src={burn_fat} alt="" />
-                  <h3 >
-                    Burn Extra Fat
-                  </h3>
+                  <img src={breathing} alt="" />
+                  <h3 style={{ textAlign: "center" }}>Breathing Techniques</h3>
                   <p style={{ textAlign: "center" }}>
-                    Reduce extra fat, learn yogic technique to maintain
-                    weight and become stronger.
+                    Learn powerful yogic breathing techniques and find calmness,
+                    concentration, channelizing the energy, rest, rhythm, repair
+                    & rejuvenation on body and mind.
                   </p>
                 </div>
               </div>
@@ -73,14 +66,11 @@ function ChooseUs() {
             <div class="why-right">
               <div class="div-div-r1">
                 <div class="pose-name1-r1 ">
-                  <img src={breathing} alt="" />
-                  <h3 >
-                    Breathing Techniques
-                  </h3>
+                  <img src={flexible} alt="" />
+                  <h3 style={{textAlign:"center"}}>Become Flexible</h3>
                   <p style={{ textAlign: "center" }}>
-                    Learn powerful yogic breathing techniques and
-                    find calmness, concentration, channelizing the energy, rest, rhythm,
-                    repair & rejuvenation on body and mind.
+                    Increase flexibility & agility, strengthens the muscles &
+                    tendons reduce the risk of injury.
                   </p>
                 </div>
               </div>
@@ -88,9 +78,7 @@ function ChooseUs() {
               <div class="div-div-r2">
                 <div class="pose-name1-r2 ">
                   <img src={calm} alt="" />
-                  <h3 >
-                    Be Calm
-                  </h3>
+                  <h3>Be Politeness</h3>
                   <p style={{ textAlign: "center" }}>
                     Reduce stress, “Chose peace over panic”. Improve
                     concentration.
@@ -101,17 +89,16 @@ function ChooseUs() {
               <div class="div-div-r3">
                 <div class="pose-name1-r3 ">
                   <img src={loveWithYoga} alt="" />
-                  <h3 >
+                  <h3 style={{ textAlign: "center" }}>
                     Fall in Love with YOGA
                   </h3>
                   <p style={{ textAlign: "center" }}>
-                    As the saying goes there is someone for
-                    everyone - there is a Yoga or Exercise for everyone too, you just have to
-                    search for it
+                    As the saying goes there is someone for everyone - there is
+                    a Yoga or Exercise for everyone too, you just have to search
+                    for it
                   </p>
                 </div>
               </div>
-
             </div>
           </div>
         </div>

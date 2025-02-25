@@ -58,12 +58,20 @@ h2 {
 
 @media (max-width:700px) {
   h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
-
   }
 
 }
+
+@media (max-width:500px) {
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+}
+
 
 p {
 
@@ -73,7 +81,7 @@ p {
   word-spacing: 1px;
   font-weight: 500;
   color: var(--text);
-  font-family: "Poppins";
+  font-family: "sans-serif";
 }
 
 .bg-img-cover {

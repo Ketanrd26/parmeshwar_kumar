@@ -3,7 +3,6 @@ import "./Contact.scss";
 import { SlLocationPin } from "react-icons/sl";
 import { LiaMailBulkSolid } from "react-icons/lia";
 import { MdOutlinePhone } from "react-icons/md";
-import { FaArrowRightLong } from "react-icons/fa6";
 import Button from "../../comp/button/Button";
 
 function Contact() {

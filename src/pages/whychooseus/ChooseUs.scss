@@ -69,7 +69,7 @@
               box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
             }
 
-            h3{
+            h3 {
               font-size: 22px;
               font-weight: 500;
             }
@@ -97,7 +97,7 @@
               padding: 10px;
               box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
             }
-            h3{
+            h3 {
               font-size: 22px;
               font-weight: 500;
             }
@@ -125,7 +125,7 @@
               padding: 10px;
               box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
             }
-            h3{
+            h3 {
               font-size: 22px;
               font-weight: 500;
             }
@@ -173,7 +173,7 @@
               padding: 10px;
               box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
             }
-            h3{
+            h3 {
               font-size: 22px;
               font-weight: 500;
             }
@@ -200,7 +200,7 @@
               padding: 10px;
               box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
             }
-            h3{
+            h3 {
               font-size: 22px;
               font-weight: 500;
             }
@@ -227,7 +227,7 @@
               padding: 10px;
               box-shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa;
             }
-            h3{
+            h3 {
               font-size: 22px;
               font-weight: 500;
             }
@@ -238,87 +238,278 @@
   }
 }
 
-@media (max-width:700px) {
+@media (max-width: 1000px) {
   .choose-us-parent {
     .choose-us-cont {
-      .why-header {}
-
       .why-bottom {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+
         .why-left {
-          gap: calc(var(--unit) * 3);
+          width: 50%;
+          gap: calc(var(--unit));
 
           .div-div1 {
-            .pose-name1 {
-              width: 100%;
-
-              img {
-                width: 30%;
-              }
-            }
+            align-items: center;
+            justify-content: center;
           }
 
           .div-div2 {
+            align-items: center;
+            justify-content: center;
+
             .pose-name2 {
-              width: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: flex-start;
+              gap: calc(var(--unit));
+
+              width: 60%;
 
               img {
-                width: 30%;
+                width: 40%;
+                border-radius: 100%;
+                padding: 10px;
+                box-shadow: inset 3px 3px 3px #cdcdcd,
+                  inset -3px -3px 3px #fafafa;
+              }
+              h3 {
+                font-size: 22px;
+                font-weight: 500;
               }
             }
           }
 
           .div-div3 {
-            .pose-name3 {
-              width: 100%;
+            align-items: center;
+            justify-content: center;
 
-              img {
-                width: 30%;
-              }
+            .pose-name3 {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: calc(var(--unit));
+              width: 60%;
             }
           }
         }
 
         .why-middle {
-          img {
-            width: 100%;
-          }
+          display: none;
         }
 
         .why-right {
-          gap: calc(var(--unit) * 3);
+          width: 50%;
+          gap: calc(var(--unit));
 
           .div-div-r1 {
-            .pose-name1-r1 {
-              width: 100%;
+            align-items: center;
+            justify-content: center;
 
-              img {
-                width: 30%;
+            .pose-name1-r1 {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: calc(var(--unit));
+              width: 60%;
+
+              h3 {
+                text-align: center;
               }
             }
           }
 
           .div-div-r2 {
-            .pose-name1-r2 {
-              width: 100%;
+            align-items: center;
+            justify-content: center;
 
-              img {
-                width: 30%;
-              }
+            .pose-name1-r2 {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: calc(var(--unit));
+              width: 60%;
             }
           }
 
           .div-div-r3 {
-            .pose-name1-r3 {
-              width: 100%;
+            align-items: center;
+            justify-content: center;
 
-              img {
-                width: 30%;
-              }
+            .pose-name1-r3 {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: calc(var(--unit));
+              width: 60%;
             }
           }
         }
       }
     }
   }
-
 }
+
+@media (max-width: 600px) {
+  .choose-us-parent {
+    .choose-us-cont {
+      .why-bottom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .why-left {
+          width: 100%;
+          gap: calc(var(--unit));
+  
+          .div-div1 {
+            width: 100%;
+            .pose-name {
+              width: 100%;
+            }
+          }
+  
+          .div-div2 {
+            width: 100%;
+           
+            .pose-name2 {  
+              width: 100%;
+              h3{
+                text-align: center;
+              }
+            }
+          }
+  
+          .div-div3 {
+            width: 100%;
+            .pose-name3 {
+              width: 100%;
+            }
+          }
+        }
+
+        .why-right {
+          width: 100%;
+          gap: calc(var(--unit));
+  
+          .div-div-r1 {
+            width: 100%;  
+            .pose-name1-r1 {
+              width: 100%;
+            }
+          }
+  
+          .div-div-r2 {
+            width: 100%;  
+            .pose-name1-r2 {
+              width: 100%;
+              h3{
+                text-align: center;
+              }
+            }
+          }
+  
+          .div-div-r3 {
+            width: 100%;
+            .pose-name1-r3 {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// @media (max-width:700px) {
+//   .choose-us-parent {
+//     .choose-us-cont {
+//       .why-header {}
+
+//       .why-bottom {
+//         .why-left {
+//           gap: calc(var(--unit) * 3);
+
+//           .div-div1 {
+//             .pose-name1 {
+//               width: 100%;
+
+//               img {
+//                 width: 30%;
+//               }
+//             }
+//           }
+
+//           .div-div2 {
+//             .pose-name2 {
+//               width: 100%;
+
+//               img {
+//                 width: 30%;
+//               }
+//             }
+//           }
+
+//           .div-div3 {
+//             .pose-name3 {
+//               width: 100%;
+
+//               img {
+//                 width: 30%;
+//               }
+//             }
+//           }
+//         }
+
+//         .why-middle {
+//           img {
+//             width: 100%;
+//           }
+//         }
+
+//         .why-right {
+//           gap: calc(var(--unit) * 3);
+
+//           .div-div-r1 {
+//             .pose-name1-r1 {
+//               width: 100%;
+
+//               img {
+//                 width: 30%;
+//               }
+//             }
+//           }
+
+//           .div-div-r2 {
+//             .pose-name1-r2 {
+//               width: 100%;
+
+//               img {
+//                 width: 30%;
+//               }
+//             }
+//           }
+
+//           .div-div-r3 {
+//             .pose-name1-r3 {
+//               width: 100%;
+
+//               img {
+//                 width: 30%;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+
+// }
