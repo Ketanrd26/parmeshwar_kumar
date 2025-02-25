@@ -48,7 +48,7 @@ const Header = () => {
 
 
           <div class="button">
-            <Button text="Contact Us" link_path="#contact" />
+            <Button text="Contact Us" link="/contact" />
           </div>
 
           <div class="hamburger-menu" onClick={() => setNavOpen(!navOpen)}>

@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.scss";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { RiTwitterXFill } from "react-icons/ri";
+import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
 const Footer = () => {
@@ -21,6 +21,7 @@ const Footer = () => {
             <div className="social-icons">
               <a href="https://www.facebook.com/share/15rwp1h7FB/" target="_blank"><FaFacebook /></a>
               <a href=" https://www.instagram.com/parmeshwarkumar1846?igsh=YzljYTk1ODg3Zg==" target="_blank"><FaInstagram /></a>
+              <a href="tel:+91 7620511606" target="_blank"><FaWhatsapp /></a>
             </div>
           </div>
         </div>

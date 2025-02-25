@@ -9,16 +9,16 @@ function Cookies() {
           <h1>Privacy Policy for Parmeshwar Kumar</h1>
 
           <p>
-            <span className="suggest-text">Last Updated On :</span> 24-Apr-2023
+            <span className="suggest-text">Last Updated On :</span> 25-Feb-2025
           </p>
           <p>
-            <span className="suggest-text">Effective Date :</span> 24-Apr-2023
+            <span className="suggest-text">Effective Date :</span> 25-Feb-2025
           </p>
 
           <p>
             This Privacy Policy describes the policies of Parmeshwar Kumar,
             A119, First Floor, Nyati Empress, Clover Park, Viman Nagar, Pune-411014 India, email:
-            info@akkafoundation.in, phone: 7620 511 606 on the collection, use and
+            info@parmeshwarkumar.com, phone: 7620 511 606 on the collection, use and
             disclosure of your information that we collect when you use our
             website ( https://www.parmeshwarkumar.com/ ). (the “Service”). By accessing
             or using the Service, you are consenting to the collection, use and
@@ -129,7 +129,7 @@ function Cookies() {
             If you have any queries or concerns about the processing of your
             information that is available with us, you may email our Grievance
             A119, First Floor, Nyati Empress, Clover Park, Viman Nagar, Pune-411014 email:
-            moulee@gamil.com . We will address your concerns in accordance
+            parmeshwarkumar@gamil.com . We will address your concerns in accordance
             with applicable law.
           </p>
         </div>
