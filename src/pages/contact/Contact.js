@@ -56,7 +56,7 @@ function Contact() {
                 </p>
                 <form class="form">
                   <div class="name-last">
-                    <input type="text" name="fname" placeholder="First Name" />
+                    <input type="text" name="fname" placeholder="Your Name" />
              
                   </div>
                   <div class="name-last">
