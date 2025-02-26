@@ -57,7 +57,7 @@ function Contact() {
                 <form class="form">
                   <div class="name-last">
                     <input type="text" name="fname" placeholder="First Name" />
-                    <input type="text" placeholder="Last Email" />
+             
                   </div>
                   <div class="name-last">
                     <input type="text" placeholder="Contact " />
