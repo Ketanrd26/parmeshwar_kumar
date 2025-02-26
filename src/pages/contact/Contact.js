@@ -10,7 +10,7 @@ function Contact() {
     {
       icon: <LiaMailBulkSolid />,
       name: "Mail",
-      des: "info@wingscoffeedoha.com",
+      des: "paramkumarranchi@gmail.com",
     },
 
     {

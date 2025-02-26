@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
+
 
 import "./Gallery.scss";
 
@@ -27,7 +26,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import {
+  Autoplay,
+  Pagination,
+  Navigation,
+  EffectCoverflow,
+} from "swiper/modules";
 
 function Gallery() {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,31 +63,27 @@ function Gallery() {
       </div>
       <div className="gallery-images-parent">
         <Swiper
-          spaceBetween={30}
+          spaceBetween={0}
           centeredSlides={true}
           autoplay={{
-            delay: 250000,
+            delay: 5000,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
+          pagination={{ clickable: true }}
           navigation={false}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
           {imageSlides.map((slide, index) => (
             <SwiperSlide className="swiper-slide" key={index}>
-              <div 
-               className="swiperr"
-              >
+              <div className="swiperr">
                 {slide.images.map((img, imgIndex) => (
                   <img
                     key={imgIndex}
                     src={img}
-                    alt={img}
+                    alt={`Slide ${index * 6 + imgIndex}`}
                     onClick={() => {
-                      setPhotoIndex(index * 6 + imgIndex);
+                      setPhotoIndex(index * 6 + imgIndex); // ✅ Fix: Ensure correct index calculation
                       setIsOpen(true);
                     }}
                   />
@@ -93,23 +93,37 @@ function Gallery() {
           ))}
         </Swiper>
 
+      
+
         {isOpen && (
-          <Lightbox
-            mainSrc={imageSlides.flatMap((slide) => slide.images)[photoIndex]}
-            nextSrc={
-              imageSlides.flatMap((slide) => slide.images)[
-                (photoIndex + 1) % 18
-              ]
-            }
-            prevSrc={
-              imageSlides.flatMap((slide) => slide.images)[
-                (photoIndex + 17) % 18
-              ]
-            }
-            onCloseRequest={() => setIsOpen(false)}
-            onMovePrevRequest={() => setPhotoIndex((photoIndex + 17) % 18)}
-            onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % 18)}
-          />
+          <div className="image-lightbox">
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 3500,
+                disableOnInteraction: false,
+              }}
+              initialSlide={photoIndex} // ✅ Fix: Directly use `photoIndex`
+              loop={true}
+              navigation={true} // ✅ Enable navigation properly
+              modules={[EffectCoverflow, Autoplay, Navigation]}
+              className="mySwiper"
+              onClick={() => setIsOpen(false)}
+            >
+              {imageSlides
+                .flatMap((slide) => slide.images)
+                .map((image, index) => (
+                  <SwiperSlide key={index} className="swiperslide">
+                    <div
+                      className="image bg-img-contain"
+                      style={{ backgroundImage: `url(${image})` }} // ✅ Fix: Directly use `image`
+                    ></div>
+                  </SwiperSlide>
+                ))}
+            </Swiper>
+          </div>
         )}
       </div>
     </div>

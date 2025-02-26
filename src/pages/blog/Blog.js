@@ -5,7 +5,6 @@ import img1 from "../../assets/blog_img.jpg";
 import Button from "../../comp/button/Button";
 import data from "../../Data";
 const Blog = () => {
-
   return (
     <>
       <div className="parent blog-parent " id="blog">
@@ -18,9 +17,9 @@ const Blog = () => {
             </p>
             <h2>Dive in to our blog</h2>
             <p>
-              Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit
-              amet Ipsum long established fact that a reader will be distracted
-              by the readable.
+              Yoga is a journey of mind, body, and soul. Experience balance,
+              flexibility, and inner peace through breath, movement, and
+              mindfulness. Embrace wellness and transform your life.
             </p>
           </div>
 
@@ -35,7 +34,10 @@ const Blog = () => {
                 </div>
 
                 <div class="overlay-btn">
-                  <Button link="/blog_detail" text="Read More" />
+                  <Button
+                    link={`/blog_detail?blogId=${index}`}
+                    text="Read More"
+                  />
                 </div>
 
                 <div className="date">
