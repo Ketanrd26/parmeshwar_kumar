@@ -4,28 +4,8 @@ import { SlCalender } from "react-icons/sl";
 import img1 from "../../assets/blog_img.jpg";
 import Button from "../../comp/button/Button";
 import { Helmet } from "react-helmet";
+import data from "../../Data";
 const Blog = () => {
-  const data = [
-    {
-      img: img1,
-      date: "January 12, 2025",
-      title: "Yoga For better sleep and health",
-      content: "when an unknown printer took a galley of type galley of type",
-    },
-    {
-      img: img1,
-      date: "January 12, 2025",
-      title: "Yoga For better sleep and health",
-      content: "when an unknown printer took a galley of type galley of type",
-    },
-    {
-      img: img1,
-      date: "January 12, 2025",
-      title: "Yoga For better sleep and health",
-      content: "when an unknown printer took a galley of type galley of type",
-    },
-  ];
-
   return (
     <>
       <Helmet>
@@ -53,9 +33,9 @@ const Blog = () => {
             </p>
             <h2>Dive in to our blog</h2>
             <p>
-              Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit
-              amet Ipsum long established fact that a reader will be distracted
-              by the readable.
+              Yoga is a journey of mind, body, and soul. Experience balance,
+              flexibility, and inner peace through breath, movement, and
+              mindfulness. Embrace wellness and transform your life.
             </p>
           </div>
 
@@ -70,7 +50,10 @@ const Blog = () => {
                 </div>
 
                 <div class="overlay-btn">
-                  <Button link="/blog_detail" text="Read More" />
+                  <Button
+                    link={`/blog_detail?blogId=${index}`}
+                    text="Read More"
+                  />
                 </div>
 
                 <div className="date">
@@ -79,7 +62,7 @@ const Blog = () => {
                 </div>
                 <div className="below-content">
                   <h4>{item.title}</h4>
-                  <p>{item.content}</p>
+                  <p>{item.content.split(" ").slice(0, 14).join(" ")}...</p>
                 </div>
               </div>
             ))}

@@ -78,7 +78,7 @@ function ChooseUs() {
               <div class="div-div-r2">
                 <div class="pose-name1-r2 ">
                   <img src={calm} alt="" />
-                  <h3>Be Politeness</h3>
+                  <h3>Peacefulness</h3>
                   <p style={{ textAlign: "center" }}>
                     Reduce stress, “Chose peace over panic”. Improve
                     concentration.
