@@ -3,6 +3,7 @@ import "./Blog.scss";
 import { SlCalender } from "react-icons/sl";
 import img1 from "../../assets/blog_img.jpg";
 import Button from "../../comp/button/Button";
+import { Helmet } from "react-helmet";
 const Blog = () => {
   const data = [
     {
@@ -27,6 +28,21 @@ const Blog = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Yoga Blog | Tips, Techniques & Insights for a Healthier Life
+        </title>
+        <meta
+          name="description"
+          content="Explore expert yoga tips, techniques, and insights on mindfulness, meditation, and well-being. Stay updated with the latest yoga practices for a balanced and healthy life."
+        />
+        <meta
+          name="keywords"
+          content="Yoga Blog, Yoga Tips, Meditation Techniques, Mindfulness, Yoga for Beginners, Advanced Yoga, Wellness Blog, Healthy Lifestyle, Yoga Insights, Yoga Practices"
+        />
+        <link rel="canonical" href="https://parmeshwarkumar.com/" />
+      </Helmet>
+
       <div className="parent blog-parent " id="blog">
         <div class="blog-overlay bg-img-cover"></div>
         <div className="cont blog-cont">
