@@ -10,7 +10,7 @@ import burn_fat from "../../assets/why-choose/burn_fat.webp";
 import loveWithYoga from "../../assets/why-choose/lovewithyoga.webp";
 
 function ChooseUs() {
-  return (
+  return (  
     <>
       <div class="parent choose-us-parent">
         <div class="cont choose-us-cont">
