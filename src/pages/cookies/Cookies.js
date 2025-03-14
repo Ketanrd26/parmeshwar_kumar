@@ -6,7 +6,7 @@ function Cookies() {
     <>
       <div className="cookies-parent parent">
         <div className="cookies cont">
-          <h1>Privacy Policy for Parmeshwar Kumar</h1>
+          <h1>Cookies Policy</h1>
 
           <p>
             <span className="suggest-text">Last Updated On :</span> 25-Feb-2025
