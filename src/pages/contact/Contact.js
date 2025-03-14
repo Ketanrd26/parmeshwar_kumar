@@ -6,6 +6,9 @@ import { MdOutlinePhone } from "react-icons/md";
 import Button from "../../comp/button/Button";
 
 function Contact() {
+
+
+
   const data = [
     {
       icon: <LiaMailBulkSolid />,
@@ -24,6 +27,43 @@ function Contact() {
       des: "Survey no 213, Rajeev Nagar North, Viman Nagar, Pune, Maharashtra - 411014",
     },
   ];
+
+
+
+  function Submit(e) {
+
+    const formEle = document.querySelector("form");
+    e.preventDefault();
+    
+    const formData = new FormData(formEle);
+    const date = new Date().toDateString();
+
+    formData.append("date", date)
+
+    fetch(
+      "https://script.google.com/macros/s/AKfycbzMfbQshgpO3kv8F_MyrDrFwS6xq4IL30i6XS46efWwV2vqu_hhJMWnUIVusaslZ3Ozdg/exec",
+      {
+        method: "POST",
+        body: formData,
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        alert(data);
+        formEle.reset();
+        window.location.reload();
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        alert("Something went wrong. Please try again.");
+      });
+  }
+
+
+
+
+
 
   return (
     <>
@@ -54,18 +94,20 @@ function Contact() {
                 <p>
                   Have questions or ready to begin your Yoga journey? Reach out today! Whether it’s flexibility, mindfulness, or overall well-being, I’m here to guide you. Let’s connect and transform together!
                 </p>
-                <form class="form">
+
+                {/* form  */}
+                <form class="form" onSubmit={(e) => Submit(e)}>
                   <div class="name-last">
-                    <input type="text" name="fname" placeholder="Your Name" />
-             
+                    <input type="text" name="fname"  id="fname" placeholder="Your Name" />
+
                   </div>
                   <div class="name-last">
-                    <input type="text" placeholder="Contact " />
-                    <input type="text" placeholder="Email" />
+                    <input type="text" name="contact" id="contact" placeholder="Contact " />
+                    <input type="text" name="email" id="email" placeholder="Email" />
                   </div>
-                  <textarea placeholder="Message" rows="4" cols="50"></textarea>
+                  <textarea placeholder="Message" id="message" name="message" rows="4" cols="50"></textarea>
                   <div class="btn-div">
-                    <Button text="Contact Us" link="/contact" />
+                    <Button type="submit" text="Submit" link="/contact" />
                   </div>
                 </form>
               </div>
