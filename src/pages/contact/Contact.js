@@ -4,11 +4,8 @@ import { SlLocationPin } from "react-icons/sl";
 import { LiaMailBulkSolid } from "react-icons/lia";
 import { MdOutlinePhone } from "react-icons/md";
 import Button from "../../comp/button/Button";
-
+import { GrYoga } from "react-icons/gr";
 function Contact() {
-
-
-
   const data = [
     {
       icon: <LiaMailBulkSolid />,
@@ -28,20 +25,17 @@ function Contact() {
     },
   ];
 
-
-
   function Submit(e) {
-
     const formEle = document.querySelector("form");
     e.preventDefault();
-    
+
     const formData = new FormData(formEle);
     const date = new Date().toDateString();
 
-    formData.append("date", date)
+    formData.append("date", date);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbzMfbQshgpO3kv8F_MyrDrFwS6xq4IL30i6XS46efWwV2vqu_hhJMWnUIVusaslZ3Ozdg/exec",
+      "https://script.google.com/macros/s/AKfycbyxOmpw9QIePa4FDAhNRVZt9JBXz-MXGh_30TLMEYxSmqPj_nx3elk012RewAwN_q3wdg/exec",
       {
         method: "POST",
         body: formData,
@@ -50,20 +44,16 @@ function Contact() {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        alert(data);
+        
         formEle.reset();
         window.location.reload();
       })
       .catch((error) => {
         console.error("Error:", error);
-        alert("Something went wrong. Please try again.");
+        // alert("Something went wrong. Please try again.");
+        formEle.reset();
       });
   }
-
-
-
-
-
 
   return (
     <>
@@ -92,22 +82,50 @@ function Contact() {
               <div className="contact-left">
                 <h4 style={{ fontSize: "24px" }}>Get in touch</h4>
                 <p>
-                  Have questions or ready to begin your Yoga journey? Reach out today! Whether it’s flexibility, mindfulness, or overall well-being, I’m here to guide you. Let’s connect and transform together!
+                  Have questions or ready to begin your Yoga journey? Reach out
+                  today! Whether it’s flexibility, mindfulness, or overall
+                  well-being, I’m here to guide you. Let’s connect and transform
+                  together!
                 </p>
 
                 {/* form  */}
                 <form class="form" onSubmit={(e) => Submit(e)}>
                   <div class="name-last">
-                    <input type="text" name="fname"  id="fname" placeholder="Your Name" />
-
+                    <input
+                      type="text"
+                      name="fname"
+                      id="fname"
+                      placeholder="Your Name"
+                    />
                   </div>
                   <div class="name-last">
-                    <input type="text" name="contact" id="contact" placeholder="Contact " />
-                    <input type="text" name="email" id="email" placeholder="Email" />
+                    <input
+                      type="text"
+                      name="contact"
+                      id="contact"
+                      placeholder="Contact "
+                    />
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                    />
                   </div>
-                  <textarea placeholder="Message" id="message" name="message" rows="4" cols="50"></textarea>
+                  <textarea
+                    placeholder="Message"
+                    id="message"
+                    name="message"
+                    rows="4"
+                    cols="50"
+                  ></textarea>
                   <div class="btn-div">
-                    <Button type="submit" text="Submit" link="/contact" />
+                    <button className="btn" type="submit">
+                      <p class="text">Submit</p>
+                      <span class="icon">
+                        <GrYoga />
+                      </span>
+                    </button>
                   </div>
                 </form>
               </div>
